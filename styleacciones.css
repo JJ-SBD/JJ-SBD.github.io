@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #860c0c;
+    background-color: #1b546d;;
+    line-height: 1.6;
+}
+
+.verdetitulos {
+    color: #825eca;
+}
+
+.verdesubtitulos {
+    color: #00b3ff;
+}
+
+.negro {
+    color: black;
+}
+
+.imagenesc {
+    padding: 20px;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #a1e1c8;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Sección de consejos */
+.tips-section {
+    padding: 50px 0;
+}
+
+.tips-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Estilos para la cuadrícula de consejos */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.tip-card {
+    background-color: #45966d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tip-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.tip-card p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+
+
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Sección de consejos */
+.tips-section2 {
+    padding: 50px 0;
+    background-color: #83d683;
+}
+
+.tips-section2 h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Estilos para la cuadrícula de consejos */
+.tips-grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.tip-card2 {
+    background-color: #3d6fa0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tip-card2 h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.tip-card2 p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.verdesubtitulos2 {
+    color: #3962b5;
+
+}
